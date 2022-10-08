@@ -1,0 +1,15 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "portfolio html css gulp y sass",
+	"main": "index.js",
+	"scripts": {
+		"sass": "sass --watch src/scss:build/css"
+	},
+	"author": "Hugo Carreras",
+	"license": "ISC",
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"sass": "^1.55.0"
+	}
+}
