@@ -1,21 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.wrapper a {
-  margin: 0 1rem 0 1rem;
-  color: #000000;
-  text-decoration: none;
-  font-size: 2.2rem;
-}
-.wrapper a:hover {
-  color: #518001;
-}
-
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"); /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -337,14 +320,21 @@ html {
   box-sizing: inherit;
 }
 
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
+  background-color: #171717;
   font-size: 1.6rem;
-  line-height: 1.8;
+  line-height: 1.8rem;
 }
 
 p {
-  color: #000000;
+  color: #ffffff;
   font-size: 2rem;
 }
 
@@ -356,9 +346,8 @@ h1,
 h2,
 h3 {
   font-family: "DM Sans", sans-serif;
-  margin: 2.5 0;
   font-weight: 300;
-  text-align: center;
+  color: #ffffff;
 }
 
 h1 {
@@ -375,6 +364,93 @@ h3 {
 
 h4 {
   font-size: 2.6rem;
+}
+
+.contenedor_h {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  margin: 4rem 4rem;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+a:hover {
+  color: #00e600;
+}
+
+.contenedor_u {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.contenedor_u h1 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+.contenedor_u p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  color: #828282;
+  margin: 0 0 1rem 0;
+}
+.contenedor_u .download-cv {
+  margin-left: -4rem;
+  color: #ffffff;
+  background-color: #297614;
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  font-size: 2.2rem;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.contenedor_u .hero {
+  text-align: center;
+}
+.contenedor_u img {
+  margin: 0 auto;
+  width: 43rem;
+  height: 43rem;
+  border-radius: 50%;
+  margin-top: 3rem;
+  border: 3rem solid rgba(79, 79, 79, 0.01);
+  border: 2rem solid rgba(79, 79, 79, 0.2);
+  filter: drop-shadow();
+}
+
+.contenedor_d {
+  display: block;
+}
+.contenedor_d .aboutme {
+  margin-top: 20rem;
+  text-align: center;
+  max-width: 120rem;
+  line-height: 3.3rem;
+}
+.contenedor_d .iconos {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contenedor_d .iconos .icono-individual {
+  text-align: center;
+}
+.contenedor_d .iconos .icono-individual h3 {
+  font-size: 2.5rem;
+}
+.contenedor_d .iconos .icono-individual p {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=app.css.map */
