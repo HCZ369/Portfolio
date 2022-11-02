@@ -10,12 +10,11 @@
     }
   }
   .iconos {
-    margin-top: 5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     .icono-individual {
       text-align: center;
+      margin: 3rem 1rem;
       h3 {
         font-size: 2.2rem;
         margin: 2rem 0;
