@@ -8,6 +8,10 @@ html {
 *:after {
 	box-sizing: inherit;
 }
+.flex {
+	display: flex;
+	justify-content: center;
+}
 .contenedor {
 	width: 95%;
 	max-width: 120rem;
@@ -23,17 +27,23 @@ body {
 p {
 	color: $blanco;
 	font-size: 2rem;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 a {
 	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h1,
 h2,
 h3 {
 	font-family: $fuente_principal;
-	// margin: 2.5 0;
+	max-width: 120rem;
+	margin-top: 0;
+	margin-bottom: 0;
 	font-weight: 300;
 	// text-align: center;
 	color: $blanco;
