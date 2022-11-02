@@ -403,33 +403,7 @@ a:hover {
   color: #00e600;
 }
 
-@media screen and (max-width: 1280px) {
-  h1 {
-    line-height: initial;
-  }
-}
 @media screen and (max-width: 1000px) {
-  .header_logo {
-    margin-left: 3rem;
-  }
-  .navegacion a {
-    margin: 0 2rem;
-  }
-  .contenedor_u,
-.contenedor_c,
-.contenido {
-    display: flex;
-    flex-direction: column !important;
-    align-items: center;
-    width: 95%;
-    max-width: 90rem;
-    margin: 0 auto;
-  }
-  .contenedor_u .titulo,
-.contenedor_c .titulo,
-.contenido .titulo {
-    margin-bottom: 5rem;
-  }
   .aboutme {
     margin-top: 8rem !important;
     width: 95%;
@@ -463,29 +437,23 @@ a:hover {
     width: 100%;
   }
 }
-@media screen and (max-width: 600px) {
-  .navegacion a {
-    font-size: 2.2rem;
-    margin-top: 1rem;
-  }
-}
 .contenedor_u {
-  width: 90%;
+  width: 95%;
   height: 100vh;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  column-gap: 5rem;
+  line-height: initial;
+}
+.contenedor_u .titulo {
+  margin-bottom: 5rem;
 }
 .contenedor_u h1 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 5rem;
 }
 .contenedor_u p {
   font-size: 2.5rem;
-  line-height: 3.5rem;
-  font-weight: 500;
   color: #828282;
-  margin: 0 0 1rem 0;
 }
 .contenedor_u .download-cv {
   color: #ffffff;
@@ -494,9 +462,6 @@ a:hover {
   font-size: 2.2rem;
   border: none;
   cursor: pointer;
-}
-.contenedor_u .hero {
-  text-align: center;
 }
 .contenedor_u img {
   height: 40rem;
@@ -507,46 +472,69 @@ a:hover {
 
 .contenedor_d {
   display: block;
+  height: 60vh;
 }
 .contenedor_d .aboutme {
   text-align: center;
   max-width: 120rem;
-  line-height: 3.3rem;
+  line-height: 3rem;
+}
+.contenedor_d .aboutme h2 {
+  margin-bottom: 2rem;
 }
 .contenedor_d .iconos {
   margin-top: 5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .contenedor_d .iconos .icono-individual {
   text-align: center;
 }
-.contenedor_d .iconos .icono-individual h2 {
-  font-size: 2.5rem;
+.contenedor_d .iconos .icono-individual h3 {
+  font-size: 2.2rem;
+  margin: 2rem 0;
 }
 .contenedor_d .iconos .icono-individual p {
   font-size: 2rem;
+  margin-top: 1rem;
+  width: 100%;
 }
 
-.contenedor_c {
-  margin-top: 15rem;
+.contenedor_c h2 {
+  margin-bottom: 1rem;
 }
 
 .proyectos {
   flex-direction: column;
   column-gap: 3rem;
 }
+.proyectos h2 {
+  margin: 2rem 0;
+}
+.proyectos h3 {
+  margin: 1.5rem 0;
+}
+.proyectos p {
+  margin-bottom: 1rem;
+}
 .proyectos img {
-  margin: 0 auto;
-  margin-bottom: 10rem;
   width: 100%;
   display: block;
   border-radius: 1rem;
   filter: grayscale(1);
 }
 .proyectos img:hover {
-  filter: grayscale(0);
+  filter: none;
+}
+
+.contenedor-contenido {
+  height: 50vh;
+  width: 100%;
+}
+
+.contenedor-contacto h2 {
+  margin: 2rem 0;
 }
 
 form {
@@ -588,11 +576,32 @@ button {
 }
 
 footer {
+  margin-top: 2rem;
+}
+
+.contenedor_f {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15rem;
+}
+
+.navegacion {
+  flex-direction: row;
+  max-width: 100%;
+}
+
+a {
+  color: #ffffff;
+  margin: 0 1rem;
+  font-size: 2.5rem;
+}
+a h1 {
+  margin-top: 0;
+  font-size: 5rem;
+}
+a:hover {
+  color: #00e600;
 }
 
 /*# sourceMappingURL=app.css.map */

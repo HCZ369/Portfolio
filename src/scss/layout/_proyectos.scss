@@ -1,18 +1,27 @@
 .contenedor_c {
-	margin-top: 15rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
 }
 .proyectos {
-	flex-direction: column;
-	column-gap: 3rem;
-	img {
-		margin: 0 auto;
-		margin-bottom: 10rem;
-		width: 100%;
-		display: block;
-		border-radius: 1rem;
-		filter: grayscale(1);
-	}
-	img:hover {
-		filter: grayscale(0);
-	}
+  flex-direction: column;
+  column-gap: 3rem;
+  h2 {
+    margin: 2rem 0;
+  }
+  h3 {
+    margin: 1.5rem 0;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+  img {
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+    filter: grayscale(1);
+  }
+  img:hover {
+    filter: none;
+  }
 }
