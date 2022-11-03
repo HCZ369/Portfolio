@@ -1,25 +1,6 @@
 footer {
-  margin-top: 3rem;
-}
-.contenedor_f {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 3rem;
-}
-
-.navegacion {
-  max-width: 100%;
-  a {
-    color: $blanco;
-    margin: 0 1rem;
+  h4 {
     font-size: 1rem;
-    h1 {
-      font-size: 2rem;
-    }
-    &:hover {
-      color: $verde;
-    }
+    text-align: center;
   }
 }
