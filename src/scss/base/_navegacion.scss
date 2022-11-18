@@ -1,26 +1,26 @@
 .contenedor_h {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 5rem;
 }
 .navegacion {
-  flex-direction: row;
-  justify-content: baseline;
-  max-width: 100%;
-  padding-right: 1rem;
+	flex-direction: row;
+	justify-content: baseline;
+	max-width: 100%;
+	padding-right: 1rem;
 }
 a {
-  color: $blanco;
-  font-size: 1.5rem;
-  margin: 0 1rem;
-  font-weight: 500;
-  h1 {
-    margin-top: 0;
-    font-size: 4rem;
-  }
-  &:hover {
-    color: $verde;
-    transition: 0.5s;
-  }
+	color: $blanco;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+	font-weight: 500;
+	h1 {
+		margin-top: 0;
+		font-size: 4rem;
+	}
+	&:hover {
+		color: $verde;
+		transition: 0.5s;
+	}
 }

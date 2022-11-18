@@ -409,6 +409,27 @@ a:hover {
   transition: 0.5s;
 }
 
+@media screen and (min-width: 768px) {
+  a {
+    font-size: 3rem;
+  }
+  .contenedor_u {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .titulo {
+    padding: 0 5rem;
+  }
+  img {
+    height: 40rem !important;
+  }
+  button {
+    display: flex;
+    width: 20rem !important;
+    text-align: center;
+    align-items: center;
+  }
+}
 .contenedor_u {
   width: 95%;
   height: 100vh;
@@ -509,6 +530,10 @@ a:hover {
 }
 .proyectos .proyectos_individual {
   padding: 1.1rem 0;
+}
+.proyectos .proyectos_individual p {
+  margin: 2.5rem 0;
+  line-height: 2.5rem;
 }
 
 .contenedor-contacto {
